@@ -8,6 +8,84 @@
 <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="lib/jquery.tools.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+<script>
+
+	/*$("#tabdec").click(function(e){
+			alert("$('e.target')");
+		switch(e.target.id){
+
+			case "taba":
+				alert("a");
+				$("#taba").addClass("active");
+				$("#tabb").removeClass("active");
+				$("#tabc").removeClass("active");
+				//display selected division, hide others
+				$("#tab1").show();
+				$("#tab2").hide();
+				$("#tab3").hide();
+			break;
+			case "tabb":
+						alert("b");
+				//change status & style menu
+				$("#tabb").addClass("active");
+				$("#taba").removeClass("active");
+				$("#tabc").removeClass("active");
+				//display selected division, hide others
+				$("#tab2").show();
+				$("#tab1").hide();
+				$("#tab3").hide();
+			break;
+			case "tab3":
+							alert("c");
+				//change status & style menu
+				$("#tabc").addClass("active");
+				$("#tabb").removeClass("active");
+				$("#taba").removeClass("active");
+				//display selected division, hide others
+				$("#tab3").show();
+				$("#tab2").hide();
+				$("#tab1").hide();
+			break;
+			default:
+							alert("x");
+		}
+		//alert(e.target.id);
+		return false;
+	});*/
+
+
+</script>
+<script>
+	/*		$(document).ready(function(){
+				$('ul.tabnames').each(function(){
+					var $active, $content, $links = $(this).find('a');
+					$active = $links.first().addClass('active');
+					$content = $($active.attr('href'));
+					$links.not(':first').each(function () {
+						$($(this).attr('href')).hide();
+					});
+
+					$(this).on('click', 'a', function(e){
+						alert("asdf");
+						$("#tabc").removeClass("active");
+						$("#tabb").removeClass("active");
+						$("#taba").removeClass("active");
+						$(this).addClass("active");
+						$active.removeClass('active');
+						$content.hide();
+						$active = $(this);
+						$content = $($(this).attr('href'));
+						$active.addClass('active');
+						$content.show();
+
+						e.preventDefault();
+					});
+				});
+			});*/
+
+		</script>
 
 
 
@@ -55,11 +133,33 @@
 		 <div id="checker">
 		 <div id="checker_top"></div>
 		 <div id="checker_con">
-        <h4>Sed sed leo non metus ultricies fringilla sed et </h4>
-        <p>Vivamus eu felis eu dui elementum tincidunt. Proin iaculis risus nec nunc semper ut ornare dolor molestie. Vivamus sed nisi vel lectus fermentum sagittis non non dolor. <br />
-          <br />
-          Pellentesque tincidunt, leo ac euismod consequat, sem tortor facilisis enim, nec interdum tellus dolor non nulla. Nulla facilisi. Integer tristique sollicitu</p>
+        	<div id="tabs">
+
+				<!--<div id="tab1"><a href="#tabs-1">Nunc tincidunt</a></div>
+				<div id="tab2"><a href="#tabs-2">Proin dolor</a></div>
+				<div id="tab3"><a href="#tabs-3">Aenean lacinia</a></div>-->
+				 <ul id= "tabdec" class="tabnames">
+         			<li id="taba" ><a href="#tab1">Content 1</a></li>
+		            <li id="tabb"><a href="#tab2">Content 2</a></li>
+		            <li id="tabc"><a href="#tab3">Content 3</a></li>
+     			 </ul>
+
+<div class="clear">
+		</div>
+			<div id="tab1">
+		<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+			</div>
+			<div id="tab2">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+			</div>
+			<div id="tab3">
+		<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+		<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+			</div>
+			</div>
       </div>
+	  <div class="clear">
+		</div>
 	   <div id="checker_bot"></div>
 	   </div>
 	   
@@ -79,7 +179,7 @@
   </div>
   <!--<div class="content_bot"></div>-->
   <div id="footer_bg">
-  
+  ffffffffffffffff
   
   </div>
 </div>

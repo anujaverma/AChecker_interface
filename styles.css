@@ -8,9 +8,7 @@
 
 body{	
     font-family: Verdana, Arial, Helvetica, sans-serif;
-
 	background-color:#d5d2db;
-
 }
 
 #wrap a{
@@ -27,7 +25,6 @@ color:#FFFFFF;
 	padding-left: 50px;
 	border-color: #FFFFFF;
 	border-width: 20px;
-
 }
 
 #wrap{
@@ -49,7 +46,6 @@ color:#FFFFFF;
 	width: 500px;
 	height: 66px;
 	padding-top: 20px;
-		
 	float: left;
 }
 
@@ -68,13 +64,14 @@ color:#FFFFFF;
 	padding-bottom:20px;
 	padding-top:30px;
 }
-
+#content a
+{
+  color:#000000;
+}
 #checker_top
 {
 	background:url(images/checker_top.png) no-repeat;
 	height:20px;
-
-
 }
 #checker
 {
@@ -82,9 +79,87 @@ color:#FFFFFF;
 	float: left;
 	padding-left: 15px;
 }
+
 #checker_con
 {
 	background-color: #FFFFFF;
+}
+#tabs ul{
+	list-style: none;
+	list-style-position: outside;
+}
+
+#tabs ul.tabnames li{
+	float: left;
+
+}
+#tabs ul.tabnames li{
+	font-weight: 700;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #898989;
+	cursor: pointer;
+	background-image:url(images/button.png);
+}
+#tabs ul.tabnames li.active{
+	background: #fff;
+	top: 1px;
+	border-bottom: 0;
+	color: #5f95ef;
+	background-image:none;
+
+}
+#tab1
+{
+	width: 580px;
+	float: left;
+	margin-left: 0px;
+	background-color: #FFFFFF;
+	padding : 10px;
+}
+#tab2
+{
+	width: 580px;
+	float: left;
+	background-color: #FFFFFF;
+	padding : 10px;
+}
+#tab3
+{
+	width: 580px;
+	float: left;
+	background-color: #FFFFFF;
+	padding : 10px;
+}
+.tabnames li {
+	list-style:none;
+	display:inline;
+	}
+.tabnames a {
+	
+
+	/*display:inline-block;
+	background:#666;
+	color:#fff;*/
+	text-decoration:none;
+	}
+
+#taba
+{
+	margin-left: 10px;
+}
+#tabb
+{
+	margin-left: 5px;
+}
+#tabc
+{
+	margin-left: 5px;
 }
 #checker_bot
 {
@@ -110,6 +185,7 @@ color:#FFFFFF;
 }
 #ads_con{
 	background-color: #FFFFFF;
+	padding: 0px 10px 0px 10px;
 }
 
 #ads_bot
@@ -117,7 +193,9 @@ color:#FFFFFF;
 	background:url(images/ads_bot.png) no-repeat;
 	height:20px;
 	width: 300px;
-
-
 }
+
+#footer_bg
+{
+background-color:#330066;
 
