@@ -23,8 +23,7 @@ color:#FFFFFF;
 {
 	padding-top: 50px;
 	padding-left: 50px;
-	border-color: #FFFFFF;
-	border-width: 20px;
+
 }
 
 #wrap{
@@ -33,7 +32,8 @@ color:#FFFFFF;
 }
 
 #top_box{
-	padding-bottom: 25px;
+	padding-bottom: 5px;
+	background-color:#CCCCCC;
 	background-image:url(images/logo.jpg);
 	height: 150px;
 	color:#FFFFFF;
@@ -84,6 +84,10 @@ color:#FFFFFF;
 {
 	background-color: #FFFFFF;
 }
+/*#tabs
+{
+
+}*/
 #tabs ul{
 	list-style: none;
 	list-style-position: outside;
@@ -97,23 +101,23 @@ color:#FFFFFF;
 	font-weight: 700;
 	display: block;
 	padding: 5px 10px 5px 10px;
-	background: #efefef;
+	/*background: #efefef;*/
 	margin-bottom: -1px;
-	border: 1px solid #d0ccc9;
-	border-width: 1px 1px 1px 1px;
 	position: relative;
-	color: #898989;
+	/*color: #898989;
 	cursor: pointer;
-	background-image:url(images/button.png);
+	*/background-image:url(images/button.png);
 }
 #tabs ul.tabnames li.active{
 	background: #fff;
-	top: 1px;
-	border-bottom: 0;
-	color: #5f95ef;
+	margin-bottom: -2px;
 	background-image:none;
+	border: 1px solid #d0ccc9; 
+	border-width: 1px 1px 0px 1px; 
+	/*background-image:url(images/active_tab.png);*/
 
 }
+
 #tab1
 {
 	width: 580px;
@@ -121,6 +125,8 @@ color:#FFFFFF;
 	margin-left: 0px;
 	background-color: #FFFFFF;
 	padding : 10px;
+	border-top: 1px solid #d0ccc9; 
+
 }
 #tab2
 {
@@ -128,13 +134,15 @@ color:#FFFFFF;
 	float: left;
 	background-color: #FFFFFF;
 	padding : 10px;
-}
+	border-top: 1px solid #d0ccc9; 
+}	
 #tab3
 {
 	width: 580px;
 	float: left;
 	background-color: #FFFFFF;
 	padding : 10px;
+	border-top: 1px solid #d0ccc9; 
 }
 .tabnames li {
 	list-style:none;
@@ -197,5 +205,7 @@ color:#FFFFFF;
 
 #footer_bg
 {
-background-color:#330066;
-
+	height: 30px;	
+ 	background-image:url(images/bottom.png); 
+	background-color:#000000; /*b5b5b8 */
+}
