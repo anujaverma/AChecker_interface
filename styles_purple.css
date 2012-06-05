@@ -34,7 +34,7 @@ color:#FFFFFF;
 #top_box{
 	padding-bottom: 5px;
 	background-color:#CCCCCC;
-	background-image:url(images/logo.jpg);
+	background-image:url(images_purple/logo.jpg);
 	height: 150px;
 	color:#FFFFFF;
 }
@@ -70,7 +70,7 @@ color:#FFFFFF;
 }
 #checker_top
 {
-	background:url(images/checker_top.png) no-repeat;
+	background:url(images_purple/checker_top.png) no-repeat;
 	height:20px;
 }
 #checker
@@ -100,13 +100,15 @@ color:#FFFFFF;
 #tabs ul.tabnames li{
 	font-weight: 700;
 	display: block;
-	padding: 5px 10px 5px 10px;
+	padding: 5px 5px 3px 3px;
 	/*background: #efefef;*/
 	margin-bottom: -1px;
 	position: relative;
 	/*color: #898989;
 	cursor: pointer;
-	*/background-image:url(images/button.png);
+	*/
+	background-color:#d4d3d9;
+/*	background-image:url(images_purple/button.png); */
 }
 #tabs ul.tabnames li.active{
 	background: #fff;
@@ -114,7 +116,7 @@ color:#FFFFFF;
 	background-image:none;
 	border: 1px solid #d0ccc9; 
 	border-width: 1px 1px 0px 1px; 
-	/*background-image:url(images/active_tab.png);*/
+	/*background-image:url(images_purple/active_tab.png);*/
 
 }
 
@@ -171,7 +173,7 @@ color:#FFFFFF;
 }
 #checker_bot
 {
-	background:url(images/checker_bot.png) no-repeat;
+	background:url(images_purple/checker_bot.png) no-repeat;
 	height:20px;
 
 
@@ -186,7 +188,7 @@ color:#FFFFFF;
 
 #ads_top
 {
-	background:url(images/ads_top.png) no-repeat;
+	background:url(images_purple/ads_top.png) no-repeat;
 	height:20px;
 	width: 300px;
 
@@ -198,15 +200,34 @@ color:#FFFFFF;
 
 #ads_bot
 {
-	background:url(images/ads_bot.png) no-repeat;
+	background:url(images_purple/ads_bot.png) no-repeat;
 	height:20px;
 	width: 300px;
+}
+#result_top
+{
+	width:950px;
+	height:20px;
+	background-image:url(images_purple/result-top.png);
+}
+#result_con
+{
+	background-color:#FFFFFF;
+	width:930px;
+	padding:0px 10px 0px 10px;
+
+}
+#result_bot
+{
+    width:950px;
+	height:20px;
+	background-image:url(images_purple/result_bot.png);
 }
 
 #footer_bg
 {
 	height: 30px;
 	font-size:9px;	
- 	background-image:url(images/bottom.png); 
+ 	background-image:url(images_purple/bottom.png); 
 	background-color:#000000; /*b5b5b8 */
 }
