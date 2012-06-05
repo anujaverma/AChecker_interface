@@ -162,15 +162,150 @@ color:#FFFFFF;
 #taba
 {
 	margin-left: 10px;
+
+	
 }
 #tabb
 {
 	margin-left: 5px;
+
 }
+
 #tabc
 {
 	margin-left: 5px;
+
 }
+
+/*______________________________*/
+#inner_box
+{
+  margin-left:-10px;
+}
+#inner_box ul{
+	list-style: none;
+	list-style-position: outside;
+}
+
+#inner_box ul.inner_class li{
+	float: left;
+
+}
+#inner_box ul.inner_class li{
+	color: #000000;
+	display: block;
+/*	padding: 5px 5px 3px 3px;  */
+	/*background: #efefef;*/
+	padding-left: 7px;
+	padding-top: 2px;
+	position: relative;
+	margin-bottom: 0px;
+	/*color: #898989;
+	cursor: pointer;
+	*/
+	width:93px;
+	height:23px;
+/*	background-image:url(images_dark_blue/button.png) ;*/
+	background-color:#d8d8d8; 
+/*	background-image:url(images_dark_blue/button.png); */
+}
+#inner_box ul.inner_class li.active{
+	background: #ffffff;
+	margin-bottom: -1px;
+	color:#FFFFFF;	
+	border: 1px solid #d0ccc9; 
+	border-width: 1px 1px 0px 1px; 
+	/*background-image:url(images_dark_blue/active_tab.png);*/
+	background-image:none;
+
+
+
+}
+#itaba
+{
+	margin-left: 10px;
+
+	
+}
+#itabb
+{
+	margin-left: 5px;
+
+}
+
+#itabc
+{
+	margin-left: 5px;
+
+}
+#itabd
+{
+	margin-left: 5px;
+}
+
+#itabe
+{
+	margin-left: 5px;
+}
+
+#itab1
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #ffffff;
+
+	border-top: 1px solid #d0ccc9; 
+
+}
+#itab2
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #ffffff;
+
+	border-top: 1px solid #d0ccc9; 
+}	
+#itab3
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #ffffff;
+	border-top: 1px solid #d0ccc9; 
+}
+#itab4
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #ffffff;
+	border-top: 1px solid #d0ccc9; 
+}
+#itab5
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #ffffff;
+	border-top: 1px solid #d0ccc9; 
+}
+.inner_class li {
+	list-style:none;
+	display:inline;
+	}
+.inner_class a {
+	
+
+	/*display:inline-block;
+	background:#666;
+	color:#fff;*/
+	text-decoration:none;
+	}
+
+
+/*________________________________*/
 #checker_bot
 {
 	background:url(images_purple/checker_bot.png) no-repeat;
