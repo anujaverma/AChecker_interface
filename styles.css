@@ -205,7 +205,8 @@ color:#FFFFFF;
 
 #footer_bg
 {
-	height: 30px;	
+	height: 30px;
+	font-size:9px;	
  	background-image:url(images/bottom.png); 
 	background-color:#000000; /*b5b5b8 */
 }
