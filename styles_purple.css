@@ -223,10 +223,14 @@ color:#FFFFFF;
 	height:20px;
 	background-image:url(images_purple/result_bot.png);
 }
-
+#result
+{
+	margin-left:10px;
+}
 #footer_bg
 {
 	height: 30px;
+	padding-left: 50px;
 	font-size:9px;	
  	background-image:url(images_purple/bottom.png); 
 	background-color:#000000; /*b5b5b8 */
