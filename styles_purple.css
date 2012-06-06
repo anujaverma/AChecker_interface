@@ -303,7 +303,21 @@ color:#FFFFFF;
 	color:#fff;*/
 	text-decoration:none;
 	}
+#options{
+	background-color: #fff;
+	padding-left:  20px;
+	display: block;
+}
+#options a{
 
+text-decoration:none;
+}
+#options_in
+{
+	background-color: #fff;
+	padding-left:  20px;
+	display: block;
+}
 
 /*________________________________*/
 #checker_bot

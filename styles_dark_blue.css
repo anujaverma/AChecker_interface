@@ -104,13 +104,14 @@ color:#FFFFFF;
 /*	padding: 5px 5px 3px 3px;  */
 	/*background: #efefef;*/
 	padding-left: 7px;
+		padding-right: 7px;
 	padding-top: 2px;
 	position: relative;
 	margin-bottom: 0px;
 	/*color: #898989;
 	cursor: pointer;
 	*/
-	width:93px;
+
 	height:23px;
 /*	background-image:url(images_dark_blue/button.png) ;*/
 	background-color:#d8d8d8; 
@@ -183,6 +184,23 @@ color:#FFFFFF;
 	color:#fff;*/
 	text-decoration:none;
 	}
+	
+	
+#options{
+	background-color: #397aa9;
+	padding-left:  20px;
+	display: block;
+}
+#options a{
+
+text-decoration:none;
+}
+#options_in
+{
+	background-color: #397aa9;
+	padding-left:  20px;
+	display: block;
+}
 /*______________________________*/
 #inner_box
 {
