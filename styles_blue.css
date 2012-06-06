@@ -1,11 +1,7 @@
-
-
 *{
     margin: 0px;
     padding: 0px;
 }
-
-
 body{	
     font-family: Verdana, Arial, Helvetica, sans-serif;
 	background-color:#f2f2f2;
@@ -14,23 +10,18 @@ body{
 #wrap a{
 color:#FFFFFF;
 }
-
 .clear{
 	clear: both;	
 }
-
 #logo_bot
 {
 	padding-top: 50px;
 	padding-left: 50px;
-
 }
-
 #wrap{
 	width: 997px;
 	margin: auto;
 }
-
 #top_box{
 	padding-bottom: 5px;
 	background-color:#CCCCCC;
@@ -38,7 +29,6 @@ color:#FFFFFF;
 	height: 150px;
 	color:#FFFFFF;
 }
-
 /*logo*/
 .header {font-size: 36px}
 #logo{
@@ -48,17 +38,13 @@ color:#FFFFFF;
 	padding-top: 20px;
 	float: left;
 }
-
-
 #login{
 	float: left;
 	padding-left: 100px;
 	padding-top: 15px;
 }
-
-
 #content{
-	background: #e1e1e1;
+	background: #888986;
 	padding-left: 20px;
 	padding-right: 20px;	
 	padding-bottom:20px;
@@ -79,7 +65,6 @@ color:#FFFFFF;
 	float: left;
 	padding-left: 15px;
 }
-
 #checker_con
 {
 	background-color: #FFFFFF;
@@ -97,66 +82,81 @@ color:#FFFFFF;
 	float: left;
 
 }
+
 #tabs ul.tabnames li{
+	font-weight: 700;
+	display: block;
+	padding: 5px 5px 3px 3px;
+	/*background: #efefef;*/
+	margin-bottom: -1px;
+	position: relative;
+	/*color: #898989;
+	cursor: pointer;
+	*/
+	background-color:#7a797e;
+/*	background-image:url(images_purple/button.png); */
+}
+#tabs ul.tabnames li.active{
+	background: #e1e1e1;
+	margin-bottom: -2px;
+	background-image:none;
+	border: 1px solid #d0ccc9; 
+	border-width: 1px 1px 0px 1px; 
+	/*background-image:url(images_purple/active_tab.png);*/
+
+}
+/*#tabs ul.tabnames li{
 	font-weight: 700;
 	display: block;
 /*	padding: 5px 5px 3px 3px;  */
 	/*background: #efefef;*/
-	padding-left: 7px;
+	/*padding-left: 7px;
 	padding-top: 2px;
 	position: relative;
 	margin-bottom: 0px;
 	/*color: #898989;
 	cursor: pointer;
 	*/
-	width:93px;
+	/*width:93px;
 	height:23px;
-	background-image:url(images_blue/button.png) ;
+	background-image:url(images_blue/button.png) ;*/
 /*	background-color:#d4d3d9; */
 /*	background-image:url(images_blue/button.png); */
-}
+/*}
 #tabs ul.tabnames li.active{
 	background: #fff;
 	margin-bottom: -1px;
-	/*border: 1px solid #d0ccc9; 
+	border: 1px solid #d0ccc9; 
 	border-width: 1px 1px 0px 1px; 
-	*/background-image:url(images_blue/active_tab.png);
-
-
-
-}
+	background-image:url(images_blue/active_tab.png);
+}*/
 #taba
 {
 	margin-left: 10px;
-
-	
 }
 #tabb
 {
 	margin-left: 5px;
-
 }
 
 #tabc
 {
 	margin-left: 5px;
-
 }
 #tab1
 {
 	width: 580px;
 	float: left;
 	margin-left: 0px;
-	background-color: #FFFFFF;
+	background-color: #e1e1e1;
 	padding : 10px;
 	border-top: 1px solid #d0ccc9; 
-
 }
 #tab2
 {
 	width: 580px;
 	float: left;
-	background-color: #FFFFFF;
+	background-color: #e1e1e1;
 	padding : 10px;
 	border-top: 1px solid #d0ccc9; 
 }	
@@ -164,7 +164,7 @@ color:#FFFFFF;
 {
 	width: 580px;
 	float: left;
-	background-color: #FFFFFF;
+	background-color: #e1e1e1;
 	padding : 10px;
 	border-top: 1px solid #d0ccc9; 
 }
@@ -173,8 +173,6 @@ color:#FFFFFF;
 	display:inline;
 	}
 .tabnames a {
-	
-
 	/*display:inline-block;
 	background:#666;
 	color:#fff;*/
@@ -215,11 +213,11 @@ color:#FFFFFF;
 /*	background-image:url(images_dark_blue/button.png); */
 }
 #inner_box ul.inner_class li.active{
-	background: #fff;
+	/*background: #e1e1e1;*/
 	margin-bottom: -1px;
 	/*border: 1px solid #d0ccc9; 
 	border-width: 1px 1px 0px 1px; 
-	*/background-image:url(images_blue/active_tab.png);
+*/	background-image:url(images_blue/active_tab.png);
 }
 #itaba
 {
@@ -252,7 +250,7 @@ color:#FFFFFF;
 	width: 940px;
 	float: left;
 	padding-left: 10px;
-	background-color: #ffffff;
+	background-color: #e1e1e1;
 	border-top: 1px solid #d0ccc9; 
 }
 #itab2
@@ -260,7 +258,7 @@ color:#FFFFFF;
 	width: 940px;
 	float: left;
 	padding-left: 10px;
-	background-color: #ffffff;
+	background-color: #e1e1e1;
 	border-top: 1px solid #d0ccc9; 
 }	
 #itab3
@@ -268,7 +266,7 @@ color:#FFFFFF;
 	width: 940px;
 	float: left;
 	padding-left: 10px;
-	background-color: #ffffff;
+	background-color: #e1e1e1;
 	border-top: 1px solid #d0ccc9; 
 }
 #itab14
@@ -276,7 +274,7 @@ color:#FFFFFF;
 	width: 940px;
 	float: left;
 	padding-left: 10px;
-	background-color: #ffffff;
+	background-color: #e1e1e1;
 	border-top: 1px solid #d0ccc9; 
 }
 #itab5
@@ -284,7 +282,7 @@ color:#FFFFFF;
 	width: 940px;
 	float: left;
 	padding-left: 10px;
-	background-color: #ffffff;
+	background-color: #e1e1e1;
 	border-top: 1px solid #d0ccc9; 
 }
 .inner_class li {
@@ -325,7 +323,7 @@ color:#FFFFFF;
 
 }
 #ads_con{
-	background-color: #FFFFFF;
+	background-color: #e1e1e1;
 	padding: 0px 10px 0px 10px;
 }
 
