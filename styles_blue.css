@@ -269,7 +269,7 @@ color:#FFFFFF;
 	background-color: #e1e1e1;
 	border-top: 1px solid #d0ccc9; 
 }
-#itab14
+#itab4
 {
 	width: 940px;
 	float: left;
@@ -298,7 +298,21 @@ color:#FFFFFF;
 	text-decoration:none;
 	}
 
+#options{
+	background-color: #e1e1e1;
+	padding-left:  20px;
+	display: block;
+}
+#options a{
 
+text-decoration:none;
+}
+#options_in
+{
+	background-color: #e1e1e1;
+	padding-left:  20px;
+	display: block;
+}
 /*________________________________*/
 #checker_bot
 {

@@ -124,6 +124,12 @@ $(document).ready(function(){
 				$("#itab3").hide();
 			  });
 
+/*_____________________________________________*/
+
+ 				$("#options_in").hide();
+				$('#options').click(function() {			
+					$("#options_in").toggle();
+			  });
 });
 
 

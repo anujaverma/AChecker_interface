@@ -88,9 +88,6 @@
 			});*/
 
 		</script>
-
-
-
 </head>
 <body>
 <div id="wrap">
@@ -141,27 +138,67 @@
 				<div id="tab2"><a href="#tabs-2">Proin dolor</a></div>
 				<div id="tab3"><a href="#tabs-3">Aenean lacinia</a></div>-->
 				 <ul id= "tabdec" class="tabnames">
-         			<li id="taba" ><a href="#tab1">Content 1</a></li>
-		            <li id="tabb"><a href="#tab2">Content 2</a></li>
-		            <li id="tabc"><a href="#tab3">Content 3</a></li>
+         			<li id="taba" ><a href="#tab1">Web Page URL</a></li>
+		            <li id="tabb"><a href="#tab2">HTML File Upload</a></li>
+		            <li id="tabc"><a href="#tab3">Paste HTML Markup</a></li>
      			 </ul>
 
 <div class="clear">
 		</div>
-			<div id="tab1">
-				<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p><p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+			<div id="tab1" align="center"><form action="" method="get">
+				<p ><br/>Address &nbsp;	 <input name="address" type="text" value="" size="70" /><br/><br/></p>
+				<p><input name="check" type="button" value="Check It!" /></p>
+
 			</div>
-			<div id="tab2">
-		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+			<div id="tab2" align="center">
+		<p>Select File &nbsp;<input name="file" type="file" size="60" />
+		<br/><br/></p>
+		<p><input name="check" type="button" value="Check It!" /></p>
 			</div>
-			<div id="tab3">
-		<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-		<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+			<div id="tab3" align="center">
+			<p>Paste HTML Markup </p>
+			<p><textarea name="markup" cols="70" rows="15"></textarea></p>	
+			<p><input name="check" type="button" value="Check It!" /></p>
 			</div>
 			</div>
       </div>
 	  <div class="clear">
 		</div>
+		<div id="options"><img src="images_blue/arrow.png" alt="" /><a href="#tab1"><strong>OPTIONS<br/><br/></strong></a></div>
+			<div id="options_in">
+
+				<input name="html_val" type="checkbox" value="" />&nbsp;Enable HTML Validator &nbsp;
+				<input name="html_val" type="checkbox" value="" />&nbsp;Enable CSS Validator &nbsp; 
+				<input name="html_val" type="checkbox" value="" /> &nbsp;Show Source
+				<p><br/>
+				  <strong>Guidelines to Check Against</strong></p>
+				<br/>
+				<p>
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)
+				<br/><br/></p>
+				<p>
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)
+				<br/><br/></p>
+				<p>
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;BITV 1.0 (Level 2)&nbsp;
+				<br/><br/></p>
+				<p>
+				  <strong>Report Format</strong></p>
+				<br/>
+				<p>
+				<input name="1" type="radio" value="" />&nbsp;View By Guideline&nbsp;
+				<input name="1" type="radio" value="" />&nbsp;View By Line Number&nbsp;
+				<br/><br/></p>
+				<p>
+				</form>
+			</div>		
+
 	   <div id="checker_bot"></div>
 	   </div>
 	   
