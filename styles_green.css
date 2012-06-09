@@ -1,0 +1,414 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{	
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #d6d6d6;
+	background-image: url(images_green/top-rept.jpg);
+	background-repeat: repeat-x;
+
+}
+
+
+
+.clear{
+	clear: both;	
+}
+
+#logo_bot
+{
+	padding-top: 50px;
+	padding-bottom:0px
+	padding-left: 50px;
+
+}
+
+#wrap{
+	width: 997px;
+	margin: auto;
+	color:#000000;
+}
+
+#top_box a{
+color:#FFFFFF;
+}
+#top_box{
+
+	background-color:#b1ca30;
+	background-image:url(images_green/logo.jpg);		
+	height: 187px;
+	color:#FFFFFF;
+	border: solid #d0ccc9; 
+	border-width: 3px 3px 3px 3px; 
+}
+
+/*logo*/
+.header {font-size: 36px}
+#logo{
+	padding-left:20px;
+	width: 500px;
+	height: 66px;
+	padding-top: 20px;
+	float: left;
+}
+
+
+#login{
+	float: left;
+	padding-left: 100px;
+	padding-top: 15px;
+}
+
+
+#content{
+	background: #f7f7f7;
+	padding-left: 20px;
+	padding-right: 20px;	
+	padding-bottom:20px;
+	padding-top:30px;
+	/*border: solid #d0ccc9; 
+	border-width: 2px 2px 2px 2px; 
+*/
+}
+
+#checker_top
+{
+	background:url(images_green/checker_top.png) no-repeat;
+	height:20px;
+}
+#checker
+{
+	width: 600px;
+	float: left;
+	padding-left: 15px;
+}
+
+#checker_con
+{
+	background-color: #aed999;
+	color:#000000;	
+
+}
+/*#tabs
+{
+
+}*/
+#tabs ul{
+	list-style: none;
+	list-style-position: outside;
+}
+
+#tabs ul.tabnames li{
+	float: left;
+
+}
+#tabs ul.tabnames li{
+	color: #000000;
+	display: block;
+/*	padding: 5px 5px 3px 3px;  */
+	/*background: #efefef;*/
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 2px;
+	position: relative;
+	margin-bottom: 0px;
+	/*color: #898989;
+	cursor: pointer;
+	*/
+	border: solid #d0ccc9; 
+	border-width: 2px 2px 0px 2px; 
+	height:23px;
+/*	background-image:url(images_green/button.png) ;*/
+	background-color:#d8d8d8; 
+/*	background-image:url(images_green/button.png); */
+}
+#tabs ul.tabnames li a{
+	color: #000000;
+	}
+#tabs ul.tabnames li.active{
+	background: #000000;
+	margin-bottom: -1px;
+	color:#FFFFFF;	
+	border: 1px solid #d0ccc9; 
+	border-width: 1px 1px 0px 1px; 
+	/*background-image:url(images_green/active_tab.png);*/
+	background-image:none;
+}
+#tabs ul.tabnames li.active a
+{
+   color: #FFFFFF;
+}
+#taba
+{
+	margin-left: 10px;
+
+	
+}
+#tabb
+{
+	margin-left: 5px;
+
+}
+
+#tabc
+{
+	margin-left: 5px;
+
+}
+#tab1
+{
+	width: 580px;
+	float: left;
+	margin-left: 0px;
+	background-color: #aed999;
+	padding : 10px;
+	border-top: 1px solid #d0ccc9; 
+
+}
+#tab2
+{
+	width: 580px;
+	float: left;
+	background-color: #aed999;
+	padding : 10px;
+	border-top: 1px solid #d0ccc9; 
+}	
+#tab3
+{
+	width: 580px;
+	float: left;
+	background-color: #aed999;
+	padding : 10px;
+	border-top: 1px solid #d0ccc9; 
+}
+.tabnames li {
+	list-style:none;
+	display:inline;
+	}
+.tabnames a {
+	
+
+	/*display:inline-block;
+	background:#666;
+	color:#fff;*/
+	text-decoration:none;
+	}
+	
+	
+#options{
+	background-color: #aed999;
+	padding-left:  20px;
+	display: block;
+}
+#options a{
+color: #0776bc;
+text-decoration:none;
+}
+#options_in
+{
+	background-color: #aed999;
+	padding-left:  20px;
+	display: block;
+}
+/*______________________________*/
+#inner_box
+{
+  margin-left:-10px;
+}
+#inner_box ul{
+	list-style: none;
+	list-style-position: outside;
+}
+
+#inner_box ul.inner_class li{
+	float: left;
+
+}
+	#inner_box ul.inner_class li{
+	color: #000000;
+	display: block;
+/*	padding: 5px 5px 3px 3px;  */
+	/*background: #efefef;*/
+	padding-left: 7px;
+	padding-top: 2px;
+	position: relative;
+	margin-bottom: 0px;
+	/*color: #898989;
+	cursor: pointer;
+	*/
+	border: solid #d0ccc9; 
+	border-width: 2px 2px 0px 2px; 
+	width:93px;
+	height:23px;
+/*	background-image:url(images_green/button.png) ;*/
+	background-color:#d8d8d8; 
+/*	background-image:url(images_green/button.png); */
+}
+#inner_box ul.inner_class li a
+{
+		color: #000000;
+}
+#inner_box ul.inner_class li.active{
+	background: #000000;
+	margin-bottom: -1px;
+	color:#FFFFFF;	
+
+	/*background-image:url(images_green/active_tab.png);*/
+	background-image:none;
+}
+#inner_box ul.inner_class li.active a
+{
+	color: #FFFFFF;
+}
+#itaba
+{
+	margin-left: 10px;
+
+	
+}
+#itabb
+{
+	margin-left: 5px;
+}
+
+#itabc
+{
+	margin-left: 5px;
+}
+#itabd
+{
+	margin-left: 5px;
+}
+
+#itabe
+{
+	margin-left: 5px;
+}
+
+#itab1
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #aed999;
+	border-top: 1px solid #d0ccc9; 
+}
+#itab2
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #aed999;
+	border-top: 1px solid #d0ccc9; 
+}	
+#itab3
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #aed999;
+	border-top: 1px solid #d0ccc9; 
+}
+#itab4
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #aed999;
+	border-top: 1px solid #d0ccc9; 
+}
+#itab5
+{
+	width: 940px;
+	float: left;
+	padding-left: 10px;
+	background-color: #aed999;
+	border-top: 1px solid #d0ccc9; 
+}
+.inner_class li {
+	list-style:none;
+	display:inline;
+	}
+.inner_class a {
+	
+
+	/*display:inline-block;
+	background:#666;
+	color:#fff;*/
+	text-decoration:none;
+	}
+
+
+/*________________________________*/
+
+#checker_bot
+{
+	background:url(images_green/checker_bot.png) no-repeat;
+	height:20px;
+}
+
+#ads
+{
+	padding-left: 15px;
+	width: 300px;
+	float: right;
+}
+
+#ads_top
+{
+	background:url(images_green/ads_top.png) no-repeat;
+	height:20px;
+	width: 300px;
+}
+#ads_con{
+	background: #aed999;	
+	color: #000000;
+	padding: 0px 10px 0px 10px;
+}
+
+#ads_bot
+{
+	background:url(images_green/ads_bot.png) no-repeat;
+	height:20px;
+	width: 300px;
+}
+#result_top
+{
+	width:950px;
+	height:20px;
+	background-image:url(images_green/result-top.png);
+}
+#result
+{
+	margin-left:10px;
+}
+#result_con
+{
+	background: #aed999;	
+	color: #000000;
+	width:950px;
+	width:930px;
+	padding:0px 10px 0px 10px;
+}
+#result_bot
+{
+	width:950px;
+	height:20px;
+	background-image:url(images_green/result_bot.png);
+}
+#footer_bg
+{
+	padding-left: 50px;
+	color: #FFFFFF;
+	height: 100px;
+	border: solid #d0ccc9; 
+	border-width: 0px 2px 2px 2px; 
+ 	background-image:url(images_green/bottom.jpg); 
+	background-color:#000000; /*b5b5b8 */
+}/* CSS Document */
+
