@@ -1,2 +1,0 @@
-AChecker_interface
-==================
