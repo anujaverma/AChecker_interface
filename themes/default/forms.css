@@ -13,11 +13,11 @@
 div.center-input-form {
 	width: 95%; 
 	/* border: thin #CCCCCC solid; */
-	margin: 1em;
+/*	margin: 1em;*/
 	line-height:inherit;
 	/* background-color: #F8F8F8; */
 	padding:1em;
-
+	
 }
 
 div.center-input-form div.row {
