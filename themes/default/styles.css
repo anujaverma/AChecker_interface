@@ -118,11 +118,41 @@ body {
 }
 
 /*** header ***/
+div.header_links td a
+{
+	background-color:#B30000;
+	border: solid #B30000;
+		border-radius:5px;
+	padding: 1px 1px 0px 1px;
+	border-width: 3px 3px 0px 3px;
+	    text-decoration: none;
+}
+
+div.header_links td a.active
+{
+    background-color: #40364f;
+	padding: 1px 1px 0px 1px;
+		font-weight:bold;
+	border: solid #40364f;
+		border-radius:5px;
+	border-width: 3px 3px 0px 3px;
+}
+div.header_links td a:hover
+{
+    background-color: #40364f;
+	padding: 1px 1px 0px 1px;
+/*	padding: 3px 3px 0px 3px;*/
+	border: solid #40364f;
+		border-radius:5px;
+	border-width: 3px 3px 0px 3px;
+			font-weight:bold;
+}
+
 div.topnavlistcontainer {
     margin-left:auto; 
     margin-right:auto;
     margin-bottom:1em;
-    line-height:100%;
+  /*  line-height:100%;*/
 	font-weight:bold;
 }
 div.topnavlistcontainer a:hover {
@@ -137,14 +167,15 @@ div.topnavlistcontainer a:hover {
 	padding: 0px 3px 3px 3px;
 }
 .navigation a {
-    color: #000;
+    color: #ffffff;
     font-weight:bold;
     /*background: #ffa20c url(images/navl.gif) left top no-repeat;*/
-    text-decoration: underline;
+    text-decoration: none;
 	/*background-color:#d4d3d9;*/
-	border: solid #d4d3d9; 
+	border: solid #B30000; 
 	border-radius:3px;
 	border-width: 2px 2px 0px 2px;
+	background-color:#B30000;
 } 
 .navigation a span.nav {
   /*  background: url(images/navr.gif) right top no-repeat;*/
@@ -189,6 +220,14 @@ ul.navigation li a.active span.nav, li a:focus span.nav{
 	background: #ffffff;
     padding-right:10px;
 }
+/*span.upper_link a
+{
+	border: solid #d0ccc9; 
+	border-radius:3px;
+	border-width: 2px 2px 0px 2px;
+}*/
+
+
 /*#doc_link
 {
 	padding-top: 60px;

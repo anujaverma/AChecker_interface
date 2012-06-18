@@ -147,17 +147,19 @@ function encrypt_password() {
 		
 	</div>
 
-	<div class="topnavlistcontainer">
+	<div class="header_links">
 	<!-- the main navigation. in our case, tabs -->
-		<ul <!--class="navigation"-->
+		<table cellspacing="5">
+		<tr>
 			<?php foreach ($this->top_level_pages as $page): ?>
 				<?php if ($page['url'] == $this->current_top_level_page): ?>
-					<li <!--class="navigation"--><a href="<?php echo $page['url']; ?>" title="<?php echo $page['title']; ?>" class="active"><span class="nav"><?php echo $page['title']; ?></span></a></li>
+					<td><!--<span class="upper_link"> --><a href="<?php echo $page['url']; ?>" title="<?php echo $page['title']; ?>" class="active"><!--<span class="nav">--><?php echo $page['title']; ?><!--</span>--></a><!--</span>--></td>
 				<?php else: ?>
-					<li class="navigation"><a href="<?php echo $page['url']; ?>"  title="<?php echo $page['title']; ?>"><span class="nav"><?php echo $page['title']; ?></span></a></li>
+					<td><a href="<?php echo $page['url']; ?>"  title="<?php echo $page['title']; ?>"><!--<span class="nav">--><?php echo $page['title']; ?><!--</span>--></a></td>
 				<?php endif; ?>
 			<?php endforeach; ?>
-		</ul>
+		</tr>
+		</table>
 	</div>
 
 	<!-- the sub navigation and guide -->
