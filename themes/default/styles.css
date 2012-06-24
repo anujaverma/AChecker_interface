@@ -344,6 +344,8 @@ li.msg_err, li.msg_info {
 	min-width: 500px;
 }
 
+
+
 /* span attributes */
 span.err_type{
   padding: .1em .5em;
@@ -972,7 +974,7 @@ div#menutoggle{
 }
 pre.code {
     padding: 10px;
-    background:#B30000 none repeat scroll 0 0;
+    background:#FFFFFF none repeat scroll 0 0;
     border:1px solid black;
     font-family:"Bitstream Vera Sans Mono",monospace;
     margin-top:1em;
@@ -1094,7 +1096,7 @@ table.box th, table.box td {
     font-size: smaller;
 }
 #source ol {
-    background:#B30000 none repeat scroll 0 0;
+    background:#ffffff none repeat scroll 0 0;
     border:1px solid black;
     font-family:"Bitstream Vera Sans Mono",monospace;
     list-style-position:inside;
@@ -1180,6 +1182,7 @@ tr.gd_th {
     background-color: #B30000;
     padding: 3px;
     white-space: nowrap;
+	color:#FFFFFF;
 }
 /*----------*/
 
@@ -1213,5 +1216,9 @@ color:#ffffff;
 background-color: #40364f;
 }
 
+thead
+{
+color:#FFFFFF;
+}
 
 /*---------*/
